@@ -3,5 +3,9 @@ git init #初始化，进入管理模式
 git status #当前目录下的文件状态（红色：新文件or内容修改的老文件 |绿色：已添加的文件）
 git add [File_Name] #添加单个文件：红色变绿色
 git add . #添加所有红色文件：红色变绿色
+
+git config --global user.email "[you@example.com]" #配置个人信息：邮箱
+git config --global user.name "[Your Name]" #配置个人信息：用户名
+
 git commit -m '[Version_Name]' #添加为新版本，版本名自定
 git log #管理日志
