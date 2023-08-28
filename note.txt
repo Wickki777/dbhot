@@ -9,3 +9,8 @@ git config --global user.name "[Your Name]" #配置个人信息：用户名
 
 git commit -m '[Version_Name]' #添加为新版本，版本名自定
 git log #管理日志
+git reflog #管理日志(详细)
+git reset --hard [Version_Code] #回档
+git reset HEAD [File_Name] #回档到add前（从绿色回档到红色）
+git checkout -- [File_Name] #回档到修改前（回档到红色之前）
+
